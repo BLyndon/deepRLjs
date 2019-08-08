@@ -1,7 +1,7 @@
 import { numbTest } from tests.js
 
 /**
- * ReLU applied element-wise
+ * ReLU - applied element-wise
  * @param   {matrix}
  * @return  {matrix}
  */

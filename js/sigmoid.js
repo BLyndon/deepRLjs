@@ -1,7 +1,7 @@
 import { numbTest } from tests.js
 
 /**
- * Sigmoid function applied element-wise
+ * Sigmoid function - applied element-wise
  * @param   {matrix}
  * @return  {matrix}
  */
