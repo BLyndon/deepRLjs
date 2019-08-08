@@ -1,7 +1,7 @@
 import { numbTest } from tests.js
 
 /**
- * Heaviside step func. applied element-wise:  
+ * Heaviside step func. - applied element-wise:  
  *      x -> 0 if x < 0 
  *      x -> 1 else  
  * @param   {matrix}
