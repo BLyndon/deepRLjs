@@ -5,6 +5,6 @@ export default function heaviside(x) {
         return +(x >= 0);
     }
     else {
-        return x.map(item => this.heaviside(item));
+        return x.map(item => heaviside(item));
     }
 };

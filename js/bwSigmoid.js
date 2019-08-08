@@ -1,4 +1,4 @@
-import { dimTest } from 'relu'
+import { dimTest } from 'tests'
 import { dotMultiply, size, subtract } from 'mathjs'
 import sigmoid from 'sigmoid'
 
