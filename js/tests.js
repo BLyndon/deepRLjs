@@ -1,8 +1,6 @@
-import { size } from 'mathjs'
-
 /**
- * Check type of the input.
- * @param   {matrix}
+ * Check if input is a number.
+ * @param   {number|matrix}
  * @return  {boolean}
  */
 function isNum(a) {
@@ -17,7 +15,5 @@ function isNum(a) {
  * @return  {boolean}
  */
 function dimTest(matA, matB) {
-    return size(matA)[0] == size(matB)[0] && size(matA)[1] == size(matB)[1] ? true : false
+    return math.size(matA)[0] == math.size(matB)[0] && math.size(matA)[1] == math.size(matB)[1] ? true : false
 };
-
-export { isNum, dimTest };
