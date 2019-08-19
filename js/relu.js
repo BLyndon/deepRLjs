@@ -1,12 +1,10 @@
-import { numbTest } from tests.js
-
 /**
  * ReLU - applied element-wise
- * @param   {matrix}
- * @return  {matrix}
+ * @param   {number|matrix}
+ * @return  {number|matrix}
  */
-export default function relu(x) {
-    if (numbTest(x)) {
+function relu(x) {
+    if (isNum(x)) {
         return math.max(0, x);
     }
     else {
